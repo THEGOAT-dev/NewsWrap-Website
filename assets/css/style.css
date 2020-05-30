@@ -13,11 +13,11 @@ body {
 }
 
 a {
-  color: #5777ba;
+  color: #aa2200;
 }
 
 a:hover {
-  color: #7b94c9;
+  color: #e52e00;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #5777ba;
+  background: #aa2200;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +52,7 @@ h1 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #748ec6;
+  background: #e52e00;
   transition: background 0.2s ease-in-out;
 }
 
@@ -82,7 +82,7 @@ h1 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #5777ba;
+  color: #aa2200;
   text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ h1 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #47536e;
+  color: #aa2200;
   padding: 8px 15px 12px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -126,12 +126,12 @@ h1 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #5777ba;
+  color: #e52e00;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #5777ba;
+  background: #aa2200;
   color: #fff;
   border-radius: 50px;
   margin: 0 15px;
@@ -139,7 +139,7 @@ h1 {
 }
 
 .nav-menu .get-started a:hover {
-  background: #748ec6;
+  background: #e52e00;
   color: #fff;
 }
 
@@ -153,7 +153,7 @@ h1 {
   visibility: hidden;
   padding: 10px 0;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(170, 34, 0, 0.25);
   transition: ease all 0.3s;
 }
 
@@ -173,11 +173,11 @@ h1 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #233355;
+  color: #aa2200;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #5777ba;
+  color: #e52e00;
 }
 
 .nav-menu .drop-down > a:after {
@@ -237,7 +237,7 @@ h1 {
 }
 
 .mobile-nav-toggle i {
-  color: #5777ba;
+  color: #aa2200;
 }
 
 .mobile-nav {
@@ -248,7 +248,7 @@ h1 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: #fffaf8;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -265,14 +265,14 @@ h1 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #47536e;
+  color: #aa2200;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #5777ba;
+  color: #e52e00;
   text-decoration: none;
 }
 
@@ -308,7 +308,7 @@ h1 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(35, 51, 85, 0.7);
+  background: rgba(255, 255, 255, 0);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -324,7 +324,7 @@ h1 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  color: #aa2200;
 }
 
 /*--------------------------------------------------------------
@@ -345,7 +345,7 @@ h1 {
   width: 250%;
   height: 200%;
   z-index: -1;
-  background-color: #e8ecf5;
+  background-color: #ffdad1;
   transform: skewY(135deg);
 }
 
@@ -354,7 +354,7 @@ h1 {
   font-size: 48px;
   font-weight: 500;
   line-height: 56px;
-  color: #5777ba;
+  color: #aa2200;
   font-family: "pasajero", sans-serif;
 }
 
@@ -373,12 +373,12 @@ h1 {
   border-radius: 3px;
   transition: 0.5s;
   color: #fff;
-  background: #47536e;
+  background: #aa2200;
   position: relative;
 }
 
 #hero .download-btn:hover {
-  background: #5777ba;
+  background: #e52e00;
 }
 
 #hero .download-btn i {
@@ -437,7 +437,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f2f5fa;
+  background-color: #ffdad1;
 }
 
 .section-title {
@@ -450,7 +450,7 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5777ba;
+  color: #aa2200;
   font-family: "Poppins", sans-serif;
 }
 
@@ -478,7 +478,7 @@ section {
 .features .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5777ba;
+  color: #aa2200;
 }
 
 .features .content .icon-box p {
@@ -526,11 +526,11 @@ section {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #eff2f8 !important;
+  background-color: #aa2200 !important;
 }
 
 .gallery .owl-dot.active {
-  background-color: #5777ba !important;
+  background-color: #e52e00 !important;
 }
 
 .gallery .gallery-carousel {
@@ -543,9 +543,9 @@ section {
 
 @media (min-width: 992px) {
   .gallery .gallery-carousel .center {
-    border: 6px solid #5777ba;
+    border: 6px solid #aa2200;
     padding: 4px;
-    background: #fff;
+    background: #aa2200;
     z-index: 1;
     transform: scale(1.2);
     margin-top: 10px;
@@ -592,7 +592,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #b1c0df;
+  color: #aa2200;
 }
 
 .faq .accordion-list .icon-show, .faq .accordion-list .icon-close {
@@ -612,11 +612,11 @@ section {
 }
 
 .faq .accordion-list a.collapsed {
-  color: #343a40;
+  color: #aa2200;
 }
 
 .faq .accordion-list a.collapsed:hover {
-  color: #5777ba;
+  color: #e52e00;
 }
 
 .faq .accordion-list a.collapsed .icon-show {
@@ -641,12 +641,12 @@ section {
   padding: 0 0 30px 0;
   color: #47536e;
   font-size: 14px;
-  background: #ffffff;
+  background: #ffdad1;
 }
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #eff2f8;
+  background: #fff;
   text-align: center;
   font-size: 15px;
 }
@@ -657,7 +657,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #47536e;
+  color: #aa2200;
 }
 
 #footer .download-btn {
@@ -669,12 +669,12 @@ section {
   border-radius: 3px;
   transition: 0.5s;
   color: #fff;
-  background: #47536e;
+  background: #aa2200;
   position: relative;
 }
 
 #footer .download-btn:hover {
-  background: #5777ba;
+  background: #e52e00;
 }
 
 #footer .download-btn i {
@@ -688,21 +688,9 @@ section {
   margin-left: 20px;
 }
 
-#footer .footer-top {
-  padding: 60px 0 30px 0;
-  background: #fff;
-}
-
 #footer .copyright {
   text-align: center;
-  float: left;
-  color: #47536e;
-}
-
-#footer .credits {
-  float: right;
-  text-align: center;
-  font-size: 13px;
+  float: center;
   color: #47536e;
 }
 
